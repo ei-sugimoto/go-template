@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/ei-sugimoto/go-template/cmd"
+)
 
 func main() {
-	fmt.Println("Hello, World")
+	cmd.Serve()
 }
