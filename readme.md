@@ -4,4 +4,5 @@ mv go-template/.devcontainer .
 mv go-template/.gitignore .
 mv go-template/* .
 rm -rf go-template
+rm -rf readme.md
 ```
