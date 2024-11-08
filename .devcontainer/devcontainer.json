@@ -17,5 +17,7 @@
                 "editor.formatOnSave": true
             }
         }
-    }
+    },
+    "postCreateCommand": "chsh -s /usr/bin/fish",
+    "postAttachCommand": "fish"
 }
